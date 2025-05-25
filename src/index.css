@@ -49,7 +49,7 @@ body {
   padding-top: clamp(0.625rem, -0.915rem + 6.57vw, 5rem);
   padding-bottom: 20px;
   position: relative;
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   outline: 1px solid rgba(66, 86, 122, 0.1);
   display: flex;
   flex-direction: column;
