@@ -26,7 +26,7 @@ export const BottomPagination = ({
 						cy={radius}
 						r={radius}
 						fill='#42567A'
-						opacity={index === currentIndex ? '1' : '0.4'}
+						opacity={index + 1 === currentIndex ? '1' : '0.4'}
 					/>
 				))}
 			</svg>

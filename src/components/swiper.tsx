@@ -23,7 +23,7 @@ export const SwiperDate: React.FC<SwiperDateProps> = ({
 	return (
 		<div className='swiper-date-block'>
 			<ContentNavigationButtons
-				arrayLength={6}
+				arrayLength={total}
 				currentIndex={currentIndex}
 				prevContent={prevContent}
 				nextContent={nextContent}
