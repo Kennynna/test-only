@@ -269,6 +269,7 @@ body {
 .swipe-next {
   right: clamp(0.313rem, -1.166rem + 3.38vw, 1.875rem);
   z-index: 12;
+  transform: translateY(-50%)
 }
 
 .swipe-prev:disabled,
